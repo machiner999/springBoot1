@@ -1,0 +1,9 @@
+server:
+  port: 8080
+
+goldapi:
+  # Gold price (USD per troy ounce)
+  base-url: https://api.gold-api.com
+  # FX rates (USD -> JPY)
+  fx-base-url: https://open.er-api.com/v6
+  api-key: ${GOLDAPI_API_KEY:}
