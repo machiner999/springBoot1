@@ -10,6 +10,9 @@ version = '0.0.1-SNAPSHOT'
 def javaVersion = JavaVersion.VERSION_21
 
 java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
     sourceCompatibility = javaVersion
     targetCompatibility = javaVersion
 }
